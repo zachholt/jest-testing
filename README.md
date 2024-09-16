@@ -33,3 +33,13 @@ pnpm create next-app --example with-jest with-jest-app
 ```bash
 npm test
 ```
+
+## About Tests
+
+This project uses [Jest](https://jestjs.io/) for testing. There is no visual components for this script, only code and tests. The current tests are located under calculateTotal.test.tsx and counter.test.tsx.
+
+calculateTotal.test.tsx tests the calculateTotal function in the calculateTotal.ts file. Tests included are calculations and handling input.
+
+counter.test.tsx tests the Counter component in the Counter.tsx file. Tests included are rendering, incrementing, and decrementing the counter.
+
+Finally you can run npm run coverage to see the test coverage of the entire project. 
